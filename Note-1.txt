@@ -1,0 +1,62 @@
+Java
+
+- Write once run anywhere
+- It is a Platform Independent
+- Platform: Hardware + O/S
+
+History:
+
+- Invented by james gosling 1991
+- Developed by Sun Microsystems
+- Old name of java is "oak" 
+- In 1995, first released publicly as java 1.0
+- Sun Microsystems sold java to Oracle corporation in 2009
+
+JDK: Java Development Kit
+
+Programming: Set of Instructions or statements
+
+Human (English)  ------> Computer (Binary)
+				(.c, .C++, .java...)
+
+English (source code (.c, .C++, .java...)) -----> Machine (Binary(2 ---> 0, 1) Language)
+
+Compiler (Translator): English to Binary
+			Binary to English
+
+English: High Level Language
+Binary: Low Level Language
+
+
+Computer System: Electronic ---> Current Flow (1) ---> No current flow (0)
+ 
+
+
+Java (source code (.java)) ---> Compiler (Translator) ----> Byte Code (.class) ----> 
+Interpreter (JRE: (Java Runtime Environment))
+
+Byte Code: Intermediate Code--> (It is not a source code or not a machine code)
+JRE: JRE read byte code and converted into machine code
+
+
+1. Visual Studio Code
+2. Eclipse
+
+JDK: Download & Install
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
