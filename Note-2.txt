@@ -1,0 +1,118 @@
+Java:
+
+- Platform Independent
+- WORA: Write Once Run Anywhere
+- High Level
+- Open Source - till Java 11
+- OOPS
+
+2 major types of programming:
+
+- procedural - Functions - Divide a problem into functions
+- oops - Class - wrap all the variables and methods/functions into a single unit
+
+
+SetUp Java
+JDK
+- Javac: Java Compiler
+- Java: JRE
+- javadoc: java documentation
+
+Java Installation:
+
+1. Download Java 19
+2. Set Path in Environment Variables
+3. Copy path till bin folder and paste in environment variables
+
+Java SE - Java Standard Edition
+Java EE - Java Enterprise Edition
+
+
+Creating First Java Program:
+
+- Every java program start with class
+- Class name should start with capital letter
+- class name should be same as file name
+- Class name starts with either alphabet or special symbol (_, $)
+
+- Compile the code: javac Filename.java
+- Run the code: java classname/bytecodename
+
+javac comes from JDK
+java comes from JRE, Now JRE starts searching for main
+
+Main method
+- main is a entry point of every java program
+- without main java will compile the code and convert it into byte code, but it can't exceute the 
+	code or interpret the code
+
+4 types of scopes in java
+
+public - global, which is accessible for all from anywhere
+
+why main is public?
+
+- JRE uses main
+- java command trigger the JRE
+- JRE load your class in the memory
+- JRE is looking for main
+- JRE is outside from your directory/folder/package
+
+why main is static?
+- Static things are loaded into memory when class is loaded
+
+why main is void?
+- main is void in nature
+- main is entry point so there is no need to return anything
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
