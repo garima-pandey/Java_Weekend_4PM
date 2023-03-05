@@ -1,0 +1,72 @@
+Java
+
+int add(int a, int b)
+{
+	
+}
+
+function Arguments: int a, int b
+
+
+int a[5];
+
+
+Main Arguments: String[] args:
+
+- main has Command Line Arguments
+
+What is Command Line Arguments?
+
+- We can pass any number of arguments, that's why it is array
+- All arguments are pass to main in form of array of String
+
+What is String?
+
+- Collection of characters: "Sourav"
+- String internally is a char[]
+- String is a predefined class in java as it is in capital letter
+
+System.out.println()?
+
+- println(): print in new line, println comes from "out" object
+- out: out is a predefined object, which belongs to printStream class
+- System is a prefined class used for input, output, and error
+
+e.g: System.in, System.out, System.err
+
+Println vs Print
+
+- println: print in new line
+- print: here cursor remains at the end of the text
+
+Can we overload main()?
+
+- yes, we can overload the main.
+- when we exceute the class, JVM (Java Virtual Machine)starts execution with public static void main(String[] args)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
