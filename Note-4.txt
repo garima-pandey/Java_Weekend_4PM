@@ -1,0 +1,14 @@
+Java:
+
+Variable Declaration, Define Variables, Local Variable 
+
+- Java doesn't have any garbage value
+- It throws error
+- Local variable must be initialized before use
+- Otherwise compilation error
+
+
+java Add 100 200
+
+args[] = ["100", "200"]
+
