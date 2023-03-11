@@ -1,0 +1,55 @@
+Java
+
+bit: 0 or 1
+8 bits = 1 byte
+
+it is used for integral only.
+byte - 1 byte
+short - 2 bytes
+int - 4 bytes
+long - 8 bytes
+
+Decimal Values
+float - 4 bytes
+double - 8 bytes
+
+byte - 1 byte = 8 bits
+1 bit +,-
+7 bits number range
+base 2
+
+-2  ^ 7 to 2 ^ 7 - 1
+-128 to 127
+
+- Can't store huge values, java doesn't have unsigned concept
+
+char - 2 bytes - because java works on unicode (universal code)
+String - char[] - depending upon o/s
+boolean - 1byte/2bytes/4bytes - true or false - depending upon o/s
+
+
+2 data types:
+
+1. Primitive Data Types or (value data types)
+int, byte, short, long, float, double....
+
+2. Reference (Address) Data Types
+String
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
