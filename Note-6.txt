@@ -1,0 +1,18 @@
+Wrapper Classes:
+
+It is a class whose object wraps or contains primitive data types
+
+Primitive Data Types					Wrapper Classes
+
+byte										Byte
+int											Integer
+short										Short
+long										Long
+char										Character
+float										Float
+double										Double
+boolean										Boolean
+
+Autoboxing: Automatic conversion of primitive data type to the object of their corresponding wrapper classes.
+Unboxing: Reverse process of autoboxing.
+
