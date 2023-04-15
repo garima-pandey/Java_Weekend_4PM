@@ -1,0 +1,16 @@
+OOPS:
+
+What is OOPS?
+
+OOPS Features:
+
+1. Class, Object
+
+Class: It is a collection of similar objects or logical entity.
+e.g: Human
+
+Object: Real world Entity or Physical Entity.
+e.g: garima, sourav, car, 
+
+
+
