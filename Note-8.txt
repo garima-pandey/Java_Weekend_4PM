@@ -1,0 +1,63 @@
+OOAD: Object Oriented Analysis and Design
+
+- To make your code clean
+- OOAD provides SOLID principle
+
+1. Duplicacy in Code
+D - DRY - Don't Repeat Yourself
+copy paste Alternative create a function and call it.
+
+2. Security of the data
+Include private member variables
+
+Encapsulation:
+Wrap methods and member variables into a single unit is called encapsulation. e.g: class
+
+Data Hiding - Make member variables private - Good Encapsulation
+Good Encapsulation: Data Hiding + Encapsualtion
+
+Scopes in Java:
+
+private: with in the class
+default: (just concept not keyword) - scope with in the folder(package)
+public: access on any package
+protected: with in the package but we can access it only outside the package using inheritance
+
+
+Constructor:
+
+Q: Need to initialize the member variable when object is construct or create.
+Ans: We need constructor for this.
+Constructor is call when you create an object.
+So Constructior will initialize the member variables.
+Constructor name is same as class name.
+Constructor never return anything.
+It is called only once.
+One class can have multiple constructors, so this thing is called constructor overloading.
+Every class by default have default constructor.
+So if you create any other constructor the default one is killed.
+
+1. default constructor
+2. parameterized constructor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
