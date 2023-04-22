@@ -40,6 +40,18 @@ So if you create any other constructor the default one is killed.
 1. default constructor
 2. parameterized constructor
 
+To use default and paramaterized constructor at a time
+
+- When we need multiple constructor calls in a single call.
+ans: We need constructor chaining for this.
+This keyword also use for constructor chaining.
+
+This Keyword:
+
+- this keyword holds current objects address
+- this keyword is optional to write, it is implicitly work it self.
+
+
 
 
 
