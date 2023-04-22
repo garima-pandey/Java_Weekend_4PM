@@ -10,19 +10,17 @@ public class Student {
 	private double fees;
 	private String collegeName;
 	
-	//Default Consturctor
-	Student() {
-		collegeName = "SRCC";
+	
+	//Getter and Setter
+	
+	public String getPhone() {
+		return phone;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
 	}
 	
-	//Parameterized Consturctor
-//	Student(int rollno, String name, String phone, String course, double fees) {
-//		this.rollno = rollno;
-//		this.name = name;
-//		this.phone = phone;
-//		this.course = course;
-//		this.fees = fees;
-//	}
 	
 //	int r, String n, String p, String c, double f - local variables
 //	public void takeInput(int r, String n, String p, String c, double f) {
@@ -41,6 +39,23 @@ public class Student {
 //		this.fees = fees;
 //	}
 //	
+	
+	//Default Consturctor
+	Student() {
+		collegeName = "SRCC";
+	}
+
+	//	Parameterized Consturctor
+	Student(int rollno, String name, String phone, String course, double fees) {
+		this(); // default constructor call
+		
+		this.rollno = rollno;
+		this.name = name;
+		this.phone = phone;
+		this.course = course;
+		this.fees = fees;
+	}
+	
 	public void print() {
 		System.out.println("Roll no: "+this.rollno);
 		System.out.println("Name: "+name);
@@ -51,15 +66,17 @@ public class Student {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		//Default Constructor Call
-		Student ram = new Student();
+//		Student ram = new Student();
 		
 		//Parameterized Constructor Call
-//		Student ram = new Student(101, "Ram", "9872638383", "Btech", 10000.0);
+		Student ram = new Student(101, "Ram", "9872638383", "Btech", 10000.0);
 		// ram: reference or address variable
 		ram.print();
-		
+		System.out.println("******************");
+		ram.setPhone("8898765678");
+//		System.out.println(ram.getPhone());
+		ram.print();
 		
 //		ram.takeInput(101, "Ram", "9872638383", "Btech", 10000.0);
 //		System.out.println("*********************");
