@@ -1,0 +1,22 @@
+Overriding:
+
+1. When Parent feature is outdated so we override the parent feature in a child.
+2. Overriding hide the parent feature.
+
+1. Must be Inheritance
+2. Method Signature must be same
+void roi(), same child has same void roi()
+
+Shape - P
+rotate
+color
+
+circle - C
+Override
+square - C
+Override
+rectangle - C
+Override
+triganle - C
+Override
+
