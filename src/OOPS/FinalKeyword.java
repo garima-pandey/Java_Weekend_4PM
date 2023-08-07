@@ -1,7 +1,7 @@
 package OOPS;
 
 class Base {
-	public void finalMethod() {
+	final public void finalMethod() {
 		System.out.println("Base");
 	}
 }
