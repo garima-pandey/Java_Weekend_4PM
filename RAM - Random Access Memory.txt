@@ -1,0 +1,12 @@
+RAM - Random Access Memory
+
+execute at the runtime/dynamically
+runtime: dynamic
+thread: program
+
+Memory Management
+
+RAM, Perm Space, Young Gen, Old Gen,
+G.C
+a) Minor GC
+b) Maos or Major GC
