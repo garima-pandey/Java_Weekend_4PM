@@ -1,0 +1,20 @@
+What is String?
+
+- String internally char[]
+e.g: String name = 'Java';
+
+- String is a predefine class in java
+- It is also treat like a Data Type
+- String is a final class, so u can't inherit it
+- String Objects are created in 2 ways:
+
+a) String Literal Style
+e.g: String name = 'Rushil';
+
+b) String Object Style
+e.g: String name = new String('Rushil');
+
+String use String pool
+String objects are immutable; Immutable: String doesn't change existing or original objects, it can create new memory or object all the time.
+
+But StringBuffer is mutuable that means it doesn't create new objects or memory
