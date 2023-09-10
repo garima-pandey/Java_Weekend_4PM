@@ -11,10 +11,22 @@ public class ExceptionDemo {
 		System.out.println("DB Query");
 		
 		try {
-			int e = 10 / 0; // throw
+			String str = null;
+			str.toUpperCase(); // throw new NullPointerException();
+			int arr[] = new int[10];
+			arr[11] = 100; // throw new ArrayIndexOutOfBoundsException();
+			int e = 10 / 0; // throw new ArithmeticException();
 		}
 		catch(ArithmeticException e) {
-			System.out.println("You divide a number by zero");
+			System.err.println("You divide a number by zero "+e);
+			return;
+		}
+		catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("More than Array Bound (Size)");
+			return;
+		}
+		catch(NullPointerException e) {
+			System.out.println("Value is null");
 			return;
 		}
 		
