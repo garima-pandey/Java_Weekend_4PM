@@ -1,0 +1,21 @@
+Project: Enterprise Applications: Banking Applications
+
+LOS: Loan Origination System 
+
+1. Sourcing
+Customer Information, Basic Loan Information
+
+2. QDE - Quick Data Entry
+Detail Information (Personal Details, Edu Details, Exp Details, Income, Liability)
+
+3. Dedupe Check (De-duplication check) - Fraud or Negative customer data
+
+4.Scoring
+Age, Income, Edu, Exp
+
+5. Approval
+EMI
+
+
+
+
